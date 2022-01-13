@@ -1,0 +1,42 @@
+userName = ''; //f the user wants, he or she can enter his or her name in between the quotation marks.
+
+userName ? console.log('Hello, ${userName}!') //a ternary expression that decides what to do if the user enters a name or not. If the user enters a name — like 'Jane' — use string interpolation to log Hello, Jane! to the console. Otherwise, simply log Hello!.
+: console.log('Hello!');
+
+const userQuestion = 'Will I become a werewolf tonight?';
+console.log('The user asked: ${userQuestion}'); //stating what was asked. 
+
+const randomNumber = Math.floor(Math.random() * 8); // generate a random number between 0 and 7. math.floor to ensure it is a whole number.
+let eightBall = '';
+
+// assigns answer to random number
+switch (condition) {
+  case 0:
+    eightBall = 'Yes';
+    break;
+  case 1:
+    eightBall = 'No';
+    break;
+  case 2:
+    eightBall = 'Maybe';
+    break;
+  case 3:
+    eightBall = 'Likely';
+    break;
+  case 4:
+    eightBall = 'Not Likely';
+    break;
+  case 5:
+    eightBall = 'Outlook is good';
+    break;
+  case 6:
+    eightBall = 'Definitely';
+    break;
+  case 7:
+    eightBall = 'No chance';
+    break;
+  case 8:
+    eightBall = 'No way';
+    break;
+  }
+  console.log('The eight ball answered: ${eightBall}'); //print eight ball answer
