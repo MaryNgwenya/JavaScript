@@ -1,13 +1,13 @@
 let athleteFinalPosition = 'first place';
 
-switch (athleteFinalPosition) {
+switch(athleteFinalPosition){
   case '1st place':
     console.log('1st place recieves a GOLD medal');
     break;
   case '2nd place':
     console.log('2nd place recieves a SILVER medal');
     break;
-  case '3rd place';
+  case '3rd place':
     console.log('3rd place recieves a BRONZE medal');
     break;
   default:
