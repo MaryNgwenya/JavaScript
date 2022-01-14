@@ -8,3 +8,7 @@ function getReminder(){
 function greetInSpanish(){
   console.log('Buenas Tardes.');
 }
+
+//call function
+
+getReminder();
