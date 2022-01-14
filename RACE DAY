@@ -1,16 +1,20 @@
 let raceNumber = Math.floor(Math.random() * 1000); //race numbers are assigned randomly. returns whole numbers between 0 and 999
+
 let registeredEarly = true; //variable to show id a runner registered early or not
 let age = 19; //variable runners age
+
 //control flow statement that checks if the runner is above 18 AND registered early. Add 100 to their raceNumber if it is true. 
+
 if(registeredEarly && age > 18){
 raceNumber += 1000;
 }
 // These statements will check age and registration time to determine race time.
+
 if(registeredEarly && age > 18){
 console.log('Race will begin at 9:30, your race numberis ${raceNumber}. ');
 }
 
-else if(!early && age > 18){
+else if(!registeredEarly && age > 18){
 console.log('Race will begin at 11:00, your race number is: ${raceNumber}.');
 }
 
