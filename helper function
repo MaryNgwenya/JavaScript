@@ -1,0 +1,14 @@
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+
+function costOfMonitors(rows, columns){
+  return monitorCount(rows, columns) * 200; //call helper function
+
+};
+
+// save the cost to a variable 
+const totalCost = costOfMonitors(5, 4);
+
+//check function worked properly by printing result
+console.log(totalCost);
