@@ -1,0 +1,10 @@
+//a function that prints a reminder to the console.
+
+function getReminder(){
+ console.log('Water the plants.');
+}
+
+//function that prints a useful Spanish travel phrase to the console
+function greetInSpanish(){
+  console.log('Buenas Tardes.');
+}
