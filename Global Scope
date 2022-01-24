@@ -1,0 +1,12 @@
+//variable declaration
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+const stars = 'North Star'
+
+//write function
+function callMyNightSky() {
+  return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+}
+
+//call function to access the global variables freely since the variables are available to all lines of code in the file.
+console.log(callMyNightSky());
