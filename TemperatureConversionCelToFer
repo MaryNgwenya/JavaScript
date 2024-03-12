@@ -1,0 +1,13 @@
+
+//celsius temp is constant
+const celsius = 4;
+
+//fahrenheit is calculated with the below equation
+let fahrenheit = celsius * (9 / 5) + 32;
+
+//using .floor() Returns the largest integer less than or equal to
+fahrenheit = Math.floor(fahrenheit);
+
+//print to the console using string interpolation
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
