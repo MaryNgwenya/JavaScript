@@ -1,0 +1,23 @@
+//const as my age
+const myAge = 32;
+
+//this variable with change
+let earlyYears = 2;
+
+//this is the equation for the early dog //years
+earlyYears *= 10.5;
+
+//equation for later dog years
+let laterYears = myAge -2;
+
+//multiply and assign in one step
+laterYears *= 4;
+
+//calculation for my age in dog years
+let myAgeInDogYears = earlyYears + laterYears;
+
+//name as string
+const myName = 'Mary Ngwenya'.toLowerCase();
+
+//statement with interpolation method
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
