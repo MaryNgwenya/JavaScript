@@ -1,0 +1,35 @@
+NOTES:
+The logical OR operator || checks two values and returns a boolean. If one or both values are truthy, it returns true. If both values are falsy, it returns false.
+true || false; //true
+10 >5 || 10 > 20 //true
+false || false; //false
+10 > 100 || 10 >20; //false
+
+Logical Operators = In JavaScript, values evaluate to true or false when evaluated as Booleans.
+
+Comparison Operators
+Values that evaluate to true are known as truthy
+Values that evaluate to false are known as falsy
+Falsy values include false, 0, empty strings, null undefined, and NaN. All other values are truthy.
+
+Comparison operators are used to comparing two values and return true or false depending on the validity of the comparison:
+
+=== strict equal
+!== strict not equal
+> greater than
+>= greater than or equal
+< less than
+<= less than or equal
+
+Ternary Operator
+let price = 10.5;
+let day = "Monday";
+
+day === "Monday" ? price -= 1.5 : price += 1.5;
+The ternary operator allows for a compact syntax in the case of binary (choosing between two choices) decisions. 
+It accepts a condition followed by a ? operator, and then two expressions separated by a :. 
+If the condition evaluates to truthy, the first expression is executed, otherwise, the second expression is executed.
+
+&& used to check if both statements are true. 
+true && true        // returns true
+true && false       // returns false
