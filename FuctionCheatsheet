@@ -1,0 +1,66 @@
+Function definition: reusable set of statements to preform the task or calculate a value. 
+They can be passed one or many values and return them. 
+PARAMENTERS are inputs into the function (the function variables)
+RETURN is used to have the function return the results. 
+CALLING use the function name and a function body in parathentheses ()
+Argumanets are values passed into a function when it is called. 
+Fuctions must be defined in the scope, by following these 4 steps
+            1. use the 'function' keyword 
+            2. add function name
+            3. add optional list of parameters separated by commas enclosed by a set of parentheses().
+            4. function body enclosed by bruly braces {}
+
+
+EXAMPLE
+// Defining the function:
+function sum(num1, num2) {
+  return num1 + num2;
+}
+
+// Calling the function:
+sum(3, 6); // 9
+
+Arrow Functions do no require the "function" keyword, they use '=>' to separate the parameter(s) from the body. 
+- If there is only on parameter you do not need the parethesis '()', '()' is for a parameter list
+- single parameter functions do not require the "return" keywaor to return the expression
+
+EXAMPLES
+// Arrow function with two parameters 
+const sum = (firstParam, secondParam) => { 
+  return firstParam + secondParam; 
+}; 
+console.log(sum(2,5)); // Prints: 7 
+
+// Arrow function with no parameters 
+const printHello = () => { 
+  console.log('hello'); 
+}; 
+printHello(); // Prints: hello
+
+// Arrow functions with a single parameter 
+const checkWeight = weight => { 
+  console.log(`Baggage weight : ${weight} kilograms.`); 
+}; 
+checkWeight(25); // Prints: Baggage weight : 25 kilograms.
+
+
+// Concise arrow functions
+const multiply = (a, b) => a * b; 
+console.log(multiply(2, 30)); // Prints: 60 
+
+
+NAMED FUNCTION VS ANONYMOUS
+
+// Named function
+function rocketToMars() {
+  return 'BOOM!';
+}
+
+// Anonymous function
+const rocketToMars = function() {
+  return 'BOOM!';
+}
+
+
+
+
