@@ -13,3 +13,4 @@ console.log(color); // throws a ReferenceError
 
 Scope Polluition definition: too many global variables. BEST PRACTICE IS TO NOT DEFINE VARIABLES IN THE GLOBAL SCOPE.
 
+Global namespace definition: cost that contains globally scoped information
