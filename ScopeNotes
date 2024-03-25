@@ -1,0 +1,15 @@
+Scope definition:
+
+
+Block Scope definition: a variable defined inside a block (are known as local variables) is only accessible inside the block (inside the curly brackets '{}')
+EXAMPLE
+const logHouseColor = () => {
+  let color = 'red'; 
+  console.log(color); // Prints "red"
+};
+
+logHouseColor(); // Prints "red"
+console.log(color); // throws a ReferenceError
+
+Scope Polluition definition: too many global variables. BEST PRACTICE IS TO NOT DEFINE VARIABLES IN THE GLOBAL SCOPE.
+
