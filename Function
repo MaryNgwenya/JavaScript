@@ -1,11 +1,10 @@
 //a function that prints a reminder to the console.
 
 function getReminder(){
- console.log('Water the plants.');
+ console.log('Cook dinner at 6pm.');
 }
 
 //call function
-
 getReminder();
 
 
@@ -14,12 +13,8 @@ getReminder();
 //function that prints a useful Spanish travel phrase to the console
 
 function greetInSpanish(){
-  console.log('Buenas Tardes.');
+  console.log('Hola.');
 }
 
 //call function
-
 greetInSpanish();
-
-
-Parameteres and Arguments
